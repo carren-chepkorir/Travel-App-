@@ -7,6 +7,7 @@ import Home from "./Routes/Home";
 import Discover from "./Routes/Discover";
 import Services from "./Routes/Services";
 import About from "./Routes/About";
+import Contact from "./Routes/Contact";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "/services",
     element: <Services />,
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
   },
 ]);
 
