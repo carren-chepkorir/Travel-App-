@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="flex space-x-8 flex items:center flex justify-between m-12 ">
-      <p className="flex-1 body-font font-poppins">TRVLS</p>
+      <p className="flex-1 body-font font-poppins text-xl">TRVLS</p>
       <nav className="flex-1">
         <ul className="flex justify-between">
           <li>
             <Link
-              className="hover:text-red-700 hover:underline hover:underline-offset-8"
+              className="hover:text-red-700 hover:underline hover:underline-offset-8 text-xl"
               to="/"
             >
               Home
@@ -17,7 +17,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              className="hover:text-red-700  hover:underline hover:underline-offset-8"
+              className="hover:text-red-700  hover:underline hover:underline-offset-8 text-xl"
               to="/about"
             >
               About
@@ -25,7 +25,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              className="hover:text-red-700 hover:underline hover:underline-offset-8"
+              className="hover:text-red-700 hover:underline hover:underline-offset-8 text-xl"
               to="/discover"
             >
               Discover
@@ -33,7 +33,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              className="hover:text-red-700 hover:underline hover:underline-offset-8"
+              className="hover:text-red-700 hover:underline hover:underline-offset-8 text-xl"
               to="/services"
             >
               Services
@@ -41,7 +41,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              className="hover:text-red-700 hover:underline hover:underline-offset-8"
+              className="hover:text-red-700 hover:underline hover:underline-offset-8 text-xl"
               to="/contact"
             >
               Contact
