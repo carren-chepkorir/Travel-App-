@@ -1,13 +1,14 @@
 import React from "react";
 // import Giraffe from "../assets/Girrafe.jpg";
 import { Link } from "react-router-dom";
-import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
+import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
 import { FaFacebook, FaTiktok, FaWhatsapp, FaPhone } from "react-icons/fa";
 import Kip from "../assets/kip.jpeg";
 import fireball from "../assets/fireball.jpg";
 import fireball2 from "../assets/fireball2.jpeg";
 import fireball3 from "../assets/fireball3.jpeg";
 import Travel1 from "../assets/Travel 1.jpg";
+import Slider from "./Slider";
 const HeroSection = () => {
   return (
     <>
@@ -86,7 +87,6 @@ const HeroSection = () => {
             <p className="text-bold text-4xl mt-0">WHAT ADVENTURERS </p>
             <p className="text-bold text-orange-600 text-4xl">SAY ABOUT US</p>
           </div>
-
           <div className="flex-1 ml-20 mt-10 leading-loose text-xl">
             <p>
               See and adventure what adventurers tell us <br />
@@ -94,47 +94,29 @@ const HeroSection = () => {
               <br />
               to whatever experience they have to say
             </p>
-            <div
-              className="bg-gray-200 box-border h-[200px] w-[600px] rounded-lg mt-10"
-              data-carousel="static"
-            >
-              <div className="overflow-hidden">
-                <p>
-                  'Travelling with Kip is more fantastic,I enjoyed a trip to
-                  Maasai Mara'
-                </p>
-              </div>
-              <div
-                className="hidden duration-700 ease-in-out"
-                data-carousel-item="active"
-              >
-                <p>
-                  'Kip really helped me in finding the best location for my
-                  first adventure trip
-                  <br />
-                  The response was very first and able to tell in detail about
-                  the place and its history'
-                </p>
-              </div>
-              <div
-                className="hidden duration-700 ease-in-out"
-                data-carousel-item
-              >
-                <p>
-                  'Travelling with Kip is more fantastic,I enjoyed a trip to
-                  Maasai Mara'
-                </p>
-              </div>
-              <div className="flex">
-                <MdKeyboardArrowLeft className="cursor-pointer flex-1" />
-                <MdKeyboardArrowRight className="cursor-pointer flex-1" />
-              </div>
+          </div>
+          <Slider />
+        </div>
+        <div className="flex-1 flex-col">
+          <img
+            className="h-[480px] w-[750px] flex rounded-lg ml-20"
+            src={Travel1}
+          />
+          <div className="flex">
+            <div className=" flex-1 mt-20 ml-20">
+              <RiDoubleQuotesL size="30" />
+            </div>
+            <div className=" flex-1 mt-20 ml-20">
+              <RiDoubleQuotesR size="30" />
             </div>
           </div>
-        </div>
 
-        <div className="flex-1 ">
-          <img className="h-[480px] w-[750px] flex rounded-lg" src={Travel1} />
+          <p className="ml-[170px] text-2xl text-bold italic ">
+            Always say yes to new adventures
+          </p>
+          <p className="ml-[170px] text-2xl text-bold italic leading-loose">
+            Keep Calm and Travel on
+          </p>
         </div>
       </div>
       <div className="">
