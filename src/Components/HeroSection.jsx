@@ -1,10 +1,13 @@
 import React from "react";
 // import Giraffe from "../assets/Girrafe.jpg";
 import { Link } from "react-router-dom";
+import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
+import { FaFacebook, FaTiktok, FaWhatsapp, FaPhone } from "react-icons/fa";
 import Kip from "../assets/kip.jpeg";
 import fireball from "../assets/fireball.jpg";
 import fireball2 from "../assets/fireball2.jpeg";
 import fireball3 from "../assets/fireball3.jpeg";
+import Travel1 from "../assets/Travel 1.jpg";
 const HeroSection = () => {
   return (
     <>
@@ -34,10 +37,12 @@ const HeroSection = () => {
           </Link>
         </div>
       </div>
-      <div className="">
-        <p className="text-black text-5xl ml-20 text-bold animate-bounce  mt-10">
+      <div className="h-[80vh] ">
+        <p className="text-black text-5xl ml-20 text-bold animate-bounce  mt-10 hover:text-orange-500">
           Explore beauty of your journey
         </p>
+        {/* <AiOutlineArrowRight size="40px" color="orange"  /> */}
+
         <div className="flex">
           <img
             className=" mt-10 ml-20 w-[550px] h-[400px] rounded-lg"
@@ -49,30 +54,134 @@ const HeroSection = () => {
             <div className="flex flex-col p-2">
               <div className="flex ">
                 <div className="flex-3  p-4">
-                  <p className="ml-20   leading-loose text-3xl text-center text-bold">
+                  <p className="ml-20   leading-loose text-3xl text-center text-bold ">
                     START YOUR NEW ADVENTURE
                   </p>
                   <p className=" text-orange-600 ml-20 text-3xl leading-loose text-center text-bold">
                     AROUND THE WORLD
                   </p>
-                  <p className="leading-loose text-center">
+                  <p className=" ml-20 leading-loose text-center">
                     There are still many amazing destinations <br />
                     scattered around Kenya,you should try
                     <br /> to visit all of them
                   </p>
                 </div>
                 <div className="flex-1 grid place-content-center">
-                  <img className="h-[50px] w-[50px] m-20" src={fireball2} />
+                  <img className="h-[150px] w-[150px] m-20" src={fireball2} />
                 </div>
               </div>
               <div className="grid h-[20vh] place-content-center">
                 <img
-                  className="h-[100px] w-[100px] ml-20 mr-20 "
+                  className="h-[150px] w-[150px]  mr-20 rounded "
                   src={fireball3}
                 />
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="flex">
+        <div className="flex-1 flex flex-col">
+          <div className="items-center ml-20 ">
+            <p className="text-bold text-4xl mt-0">WHAT ADVENTURERS </p>
+            <p className="text-bold text-orange-600 text-4xl">SAY ABOUT US</p>
+          </div>
+
+          <div className="flex-1 ml-20 mt-10 leading-loose text-xl">
+            <p>
+              See and adventure what adventurers tell us <br />
+              about their journey with us,we always listen
+              <br />
+              to whatever experience they have to say
+            </p>
+            <div
+              className="bg-gray-200 box-border h-[200px] w-[600px] rounded-lg mt-10"
+              data-carousel="static"
+            >
+              <div className="overflow-hidden">
+                <p>
+                  'Travelling with Kip is more fantastic,I enjoyed a trip to
+                  Maasai Mara'
+                </p>
+              </div>
+              <div
+                className="hidden duration-700 ease-in-out"
+                data-carousel-item="active"
+              >
+                <p>
+                  'Kip really helped me in finding the best location for my
+                  first adventure trip
+                  <br />
+                  The response was very first and able to tell in detail about
+                  the place and its history'
+                </p>
+              </div>
+              <div
+                className="hidden duration-700 ease-in-out"
+                data-carousel-item
+              >
+                <p>
+                  'Travelling with Kip is more fantastic,I enjoyed a trip to
+                  Maasai Mara'
+                </p>
+              </div>
+              <div className="flex">
+                <MdKeyboardArrowLeft className="cursor-pointer flex-1" />
+                <MdKeyboardArrowRight className="cursor-pointer flex-1" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex-1 ">
+          <img className="h-[480px] w-[750px] flex rounded-lg" src={Travel1} />
+        </div>
+      </div>
+      <div className="">
+        <div className="flex flex-col items-center bg-orange-100  h-[220px] w-[1600px] rounded-lg mt-20 ml-20">
+          <div className="">
+            <h1 className="text-bold text-4xl leading-loose">
+              GET STARTED WITH KIP
+            </h1>
+            <p>
+              Get in Touch and find super attractive price quotes
+              <br />
+              from us,wait for you at the best destination
+            </p>
+          </div>
+          <Link to="/Discover">
+            <button className="py-2 px-5  items-center rounded-lg cursor-pointer hover:bg-orange-100 text-black text-2xl bg-orange-600 animate-bounce mt-10">
+              Get Started
+            </button>
+          </Link>
+        </div>
+      </div>
+      <div className=" flex ">
+        <div className="ml-20 mt-10 flex-1 ">
+          <p>
+            My mission is to make everyone
+            <br /> able to feel the attachement <br />
+            back to nature by providing an <br />
+            unforgottable experience
+          </p>
+          <p className="mt-5">
+            &copy; {new Date().getFullYear()} TRLVS .All rights reserved
+          </p>
+        </div>
+        <div className="items-center mt-20 ml-3 text-2xl text-bold">
+          <p>Get In Touch With Me</p>
+        </div>
+        <div className=" flex flex-1 mt-20 space-x-6 cursor-pointer ">
+          <a href="tel:+254742295861">
+            <FaPhone color="#1771e6" size="50" />
+          </a>
+          <a href="https://wa.me/254742295861">
+            <FaWhatsapp color="green" size="50" />
+          </a>
+
+          <FaTiktok size="50" />
+
+          <FaFacebook color="#1771e6" size="50" />
         </div>
       </div>
     </>
