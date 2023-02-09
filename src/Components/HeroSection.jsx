@@ -55,10 +55,10 @@ const HeroSection = () => {
             <div className="flex flex-col p-2">
               <div className="flex ">
                 <div className="flex-3  p-4">
-                  <p className="ml-20   leading-loose text-3xl text-center text-bold ">
+                  <p className="ml-20   leading-loose text-3xl text-center font-bold ">
                     START YOUR NEW ADVENTURE
                   </p>
-                  <p className=" text-orange-600 ml-20 text-3xl leading-loose text-center text-bold">
+                  <p className=" text-orange-600 ml-20 text-3xl leading-loose text-center font-bold">
                     AROUND THE WORLD
                   </p>
                   <p className=" ml-20 leading-loose text-center">
@@ -84,8 +84,8 @@ const HeroSection = () => {
       <div className="flex">
         <div className="flex-1 flex flex-col">
           <div className="items-center ml-20 ">
-            <p className="text-bold text-4xl mt-0">WHAT ADVENTURERS </p>
-            <p className="text-bold text-orange-600 text-4xl">SAY ABOUT US</p>
+            <p className="font-bold text-4xl mt-0">WHAT ADVENTURERS </p>
+            <p className="font-bold text-orange-600 text-4xl">SAY ABOUT US</p>
           </div>
           <div className="flex-1 ml-20 mt-10 leading-loose text-xl">
             <p>
@@ -122,7 +122,7 @@ const HeroSection = () => {
       <div className="">
         <div className="flex flex-col items-center bg-orange-100  h-[220px] w-[1600px] rounded-lg mt-20 ml-20">
           <div className="">
-            <h1 className="text-bold text-4xl leading-loose">
+            <h1 className="font-bold text-4xl leading-loose">
               GET STARTED WITH KIP
             </h1>
             <p>
@@ -150,7 +150,7 @@ const HeroSection = () => {
             &copy; {new Date().getFullYear()} TRLVS .All rights reserved
           </p>
         </div>
-        <div className="items-center mt-20 ml-3 text-2xl text-bold">
+        <div className="items-center mt-20 ml-3 text-2xl font-bold">
           <p>Get In Touch With Me</p>
         </div>
         <div className=" flex flex-1 mt-20 space-x-6 cursor-pointer ">
