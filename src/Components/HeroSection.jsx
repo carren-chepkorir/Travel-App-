@@ -161,9 +161,13 @@ const HeroSection = () => {
             <FaWhatsapp color="green" size="50" />
           </a>
 
-          <FaTiktok size="50" />
+          <a href="" className="href">
+            <FaTiktok size="50" />
+          </a>
 
-          <FaFacebook color="#1771e6" size="50" />
+          <a href="https://www.facebook.com/Kipshariff" className="href">
+            <FaFacebook color="#1771e6" size="50" />
+          </a>
         </div>
       </div>
     </>
