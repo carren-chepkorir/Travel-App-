@@ -1,12 +1,12 @@
 import React from "react";
+import AboutMe from "../Components/AboutMe";
 import Navbar from "../Components/Navbar";
-import Slider from "../Components/Slider";
 
 const About = () => {
   return (
     <div>
       <Navbar />
-      <Slider />
+      <AboutMe />
     </div>
   );
 };
