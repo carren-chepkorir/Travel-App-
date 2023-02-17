@@ -16,7 +16,7 @@ const Slider = () => {
   const nextSliderHandler = (id) => {
     if (id === MyData.length) {
       setActiveSlide(1);
-    } else if (id > 1) {
+    } else if (id >= 1) {
       setActiveSlide(activeSlide + 1);
     } else {
       setActiveSlide(MyData.length - 1);
