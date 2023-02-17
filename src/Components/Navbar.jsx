@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="flex space-x-8 flex items:center flex justify-between m-12 ">
-      <p className="flex-1 body-font font-poppins text-xl">TRVLS</p>
+    <div className="flex space-x-8 items:center  justify-between  bg-[#145365] p-10 text-white ">
+      <p className="flex-1 body-font font-poppins text-xl">CREATIFY</p>
+      <img src="" />
       <nav className="flex-1">
         <ul className="flex justify-between">
           <li>
