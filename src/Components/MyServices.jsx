@@ -146,6 +146,33 @@ const MyServices = () => {
           </div>
         </div>
       </div>
+      <div className="bg-[#1d3c58] h-[20vh] text-white flex ">
+        <div className="flex flex-col flex-1 ">
+          <h1 className=" hover:text-orange-500">CONTACT ME</h1>
+          <p className=" hover:text-orange-500">+254 722177102</p>
+          <p className=" hover:text-orange-500">nicholaskipngetich@gmail.com</p>
+        </div>
+        <div className="flex flex-col flex-1 ">
+          <h1 className=" hover:text-orange-500">SUPPORT</h1>
+          <p className=" hover:text-orange-500">Get 24hr Support </p>
+          <a
+            href="https://www.facebook.com/Kipshariff/photos"
+            className=" hover:text-orange-500"
+          >
+            <p className=" hover:text-orange-500">Gallery</p>
+          </a>
+        </div>
+        <div className="flex flex-col flex-1 ">
+          <Link to="/About">
+            <h1 className=" hover:text-orange-500">ABOUT US</h1>
+          </Link>
+          <p className=" hover:text-orange-500">
+            Discovery offers adventure safaris <br />
+            and travel consultancy services about
+            <br /> the magnificent East Africa.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
