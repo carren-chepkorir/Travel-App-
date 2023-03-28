@@ -32,7 +32,7 @@ const Explore = () => {
                 We’ve got everything you need to go big in{" "}
                 {new Date().getFullYear()}
               </p>
-              <p>Find your best destinstions and Travel with me</p>
+              <p>Find your best destinstions and Travel with Us</p>
             </div>
           </div>
         </div>
@@ -143,7 +143,7 @@ const Explore = () => {
             </div>
           </div>
         </div>
-        <div className=" flex">
+        <div className=" flex container m-auto">
           <div className="flex-1">
             <a href="https://www.safaribookings.com/kenya/parks" className="">
               <p className="text-2xl ml-20 mt-10 hover:text-blue-600 ">
@@ -151,7 +151,8 @@ const Explore = () => {
               </p>
             </a>
             <p className="ml-20 mt-5">
-              A magnificent collection of wild animals, stunning landscapes{" "}
+              Enjoy a magnificent collection of wild animals, stunning
+              landscapes
               <br />
               with wide open spaces for as far as the eye can see, superb year
               <br />
@@ -164,12 +165,12 @@ const Explore = () => {
           </div>
           <div className="flex-1">
             <p className="mt-20">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              <br /> Nostrum ab, aspernatur laudantium beatae at hic harum
-              <br />
-              officia consectetur, nihil veritatis debitis adipisci. Cupiditate
-              <br />
-              quaerat a eius culpa voluptatibus consectetur neque.
+              Enjoy the freedom to determine your family’s preferred <br />
+              Creatify tour schedule which could include activities
+              <br /> like game drives, guided nature walks, helicopter flights
+              and <br /> very rewarding destination if you’re looking for
+              something a<br /> little off the beaten path while still offering
+              superb game viewing and <br /> exemplary accommodation.
             </p>
           </div>
         </div>
