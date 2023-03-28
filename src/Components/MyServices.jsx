@@ -146,9 +146,9 @@ const MyServices = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#1d3c58] h-[20vh] text-white flex ">
+      <div className="bg-[#145365] h-[20vh] text-white flex ">
         <div className="flex flex-col flex-1 ">
-          <h1 className=" hover:text-orange-500">CONTACT ME</h1>
+          <h1 className=" hover:text-orange-500">CONTACT US</h1>
           <p className=" hover:text-orange-500">+254 722177102</p>
           <p className=" hover:text-orange-500">nicholaskipngetich@gmail.com</p>
         </div>
