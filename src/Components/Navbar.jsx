@@ -1,13 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../assets/logo.jpeg";
 
 const Navbar = () => {
   return (
-    <div className="flex space-x-8 items:center  justify-between  bg-[#145365] p-10 text-white ">
-      <p className="flex-1 body-font font-poppins text-xl">CREATIFY</p>
-      <img src="" />
+    <div className=" md:flex space-x-8 items:center justify-between  bg-[#145365] p-10 text-white ">
+      <div className="flex-1">
+        <img className="h-[100px] w-[100px] rounded-full mt-0 " src={logo} />
+      </div>
       <nav className="flex-1">
-        <ul className="flex justify-between">
+        <ul className="flex justify-between sd: space-x-2">
           <li>
             <Link
               className="hover:text-red-700 hover:underline hover:underline-offset-8 text-xl"
