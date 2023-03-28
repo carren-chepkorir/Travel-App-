@@ -62,26 +62,28 @@ const ContactMe = () => {
   return (
     <div>
       <div className="flex">
-        <p className="font-bold text-2xl ml-20">GET IN TOUCH WITH ME</p>
+        <p className="md:font-bold text-2xl ml-20 sd:text-xl">
+          GET IN TOUCH WITH US
+        </p>
       </div>
       <div className="flex">
-        <div className="h-[70vh] ml-20 flex-1">
+        <div className=" h-[70vh] flex-1 md:ml-20">
           <form ref={form} onSubmit={sendEmail}>
-            <div className="flex flex-row">
-              <div className=" flex flex-col ">
+            <div className="md:flex flex-row">
+              <div className=" flex  flex-col ">
                 <label className="">First Name</label>
                 <input
-                  className="border h-[50px] w-[300px] py-2 px-3  mt-4 rounded-lg"
+                  className="border h-[50px] w-[300px] mt-4 rounded-lg py-2 px-3"
                   type="text"
                   name="first_name"
                   value={first_name}
                   onChange={handleFirstName}
                 />
               </div>
-              <div className="ml-10 flex flex-col ">
+              <div className="flex flex-col md:ml-10 ">
                 <label>Last Name</label>
                 <input
-                  className="border h-[50px] w-[300px] py-2 px-3 text-grey-darkest mt-4 rounded-lg"
+                  className="border h-[50px] w-[300px] py-2 px-3 text-grey-darkest mt-4 rounded-lg "
                   type="text"
                   name="Last_name"
                   value={last_name}
@@ -92,7 +94,7 @@ const ContactMe = () => {
             <div className="flex flex-col">
               <label>Email</label>
               <input
-                className="border h-[50px] w-[500px] py-2 px-3 text-grey-darkest mt-4 rounded-lg "
+                className="border py-2 px-3 text-grey-darkest mt-4 rounded-lg md:h-[50px] w-[420px]"
                 type="text"
                 name="user_mail"
                 value={user_mail}
@@ -102,7 +104,7 @@ const ContactMe = () => {
             <div className="flex flex-col">
               <label>Phone Number</label>
               <input
-                className="border h-[50px] w-[500px] py-2 px-3 text-grey-darkest mt-4 rounded-lg"
+                className="border  py-2 px-3 text-grey-darkest mt-4 rounded-lg md:h-[50px] w-[420px]"
                 type="tel"
                 name="user_phone"
                 value={user_phone}
@@ -112,7 +114,7 @@ const ContactMe = () => {
             <div className="flex flex-col">
               <label>Subject</label>
               <input
-                className="border h-[50px] w-[500px] py-2 px-3 text-grey-darkest mt-4 rounded-lg"
+                className="border  py-2 px-3 text-grey-darkest mt-4 rounded-lg md:h-[50px] w-[420px]"
                 type="text"
                 name="subject"
                 value={subject}
@@ -122,7 +124,7 @@ const ContactMe = () => {
             <div className="flex flex-col">
               <label>Message</label>
               <textarea
-                className="border h-[150px] w-[500px] py-2 px-3 text-grey-darkest mt-4 rounded-lg"
+                className="border  py-2 px-3 text-grey-darkest mt-4 rounded-lg md:h-[150px] w-[420px]"
                 type="text"
                 name="message"
                 id="message"
@@ -138,20 +140,22 @@ const ContactMe = () => {
             </button>
           </form>
         </div>
-        <div className=" md:text-2xl flex flex-1 flex-col">
-          <p>Are you interested traveling with me? Am here for you</p>
-          <p className="text-3xl animate-pulse font-bold">Let's Talk</p>
+        <div className=" md:text-2xl flex flex-1 fles-wrap flex-col">
+          <p>Are you interested traveling with us? We are here for you</p>
+          <p className="md:text-3xl animate-pulse font-bold">Let's Talk</p>
           <img src={safaris20} />
         </div>
       </div>
       <div className="bg-[#145365] mb-0 flex h-[30vh] text-white">
-        <div className="flex-1 flex-col leadin-loose ml-20">
-          <p className="text-2px font-bold">CONTACT ME</p>
+        <div className="flex-1 flex-col leading-loose md:ml-20">
+          <p className="text-2px font-bold">CONTACT US</p>
           <p> Tel:+254 742295861</p>
+
           <p>Email: chepkorircarren9@gmail.com</p>
+
           <p>Location:Nairobi,Kenya</p>
         </div>
-        <div className="flex-1 flex flex-col leading-loose ">
+        <div className=" ml-10 md:flex-1 flex flex-col leading-loose  ">
           <p>Working Hours-24hr Support</p>
           <p> Hotel Bookings</p>
           <Link to="/About">
