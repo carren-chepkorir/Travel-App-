@@ -28,7 +28,7 @@ const Explore = () => {
             </div>
             <div className=" flex  flex-col  text-2xl">
               <p>
-                Plan your best trip ever <br />
+                Plan your best trip ever with Creatify Safaris <br />
                 We’ve got everything you need to go big in{" "}
                 {new Date().getFullYear()}
               </p>
@@ -143,28 +143,24 @@ const Explore = () => {
             </div>
           </div>
         </div>
-        <div className=" flex container m-auto">
+        <div className=" flex  flex-col container m-auto">
           <div className="flex-1">
-            <a href="https://www.safaribookings.com/kenya/parks" className="">
-              <p className="text-2xl ml-20 mt-10 hover:text-blue-600 ">
-                Find more here
-              </p>
-            </a>
-            <p className="ml-20 mt-5">
-              Enjoy a magnificent collection of wild animals, stunning
-              landscapes
+            <h1 className="font-bold">ENJOY THE EXCLUSIVE EXPERIENCE</h1>
+
+            <p className=" mt-3 leading-loose">
+              Enjoy a magnificent collection of wild animals, stunning landscape
               <br />
-              with wide open spaces for as far as the eye can see, superb year
+              with wide open spaces for as far as the eye can see, superb year{" "}
               <br />
-              round climate and internationally acclaimed accommodation which
+              round climate and internationally acclaimed accommodation which{" "}
               <br />
-              ranges from exclusive luxury Tented Camps and safari lodges to
+              ranges from exclusive luxury Tented Camps and safari lodges to{" "}
               <br />
               budget camping options
             </p>
           </div>
-          <div className="flex-1">
-            <p className="mt-20">
+          <div className="leading-loose">
+            <p className="">
               Enjoy the freedom to determine your family’s preferred <br />
               Creatify tour schedule which could include activities
               <br /> like game drives, guided nature walks, helicopter flights

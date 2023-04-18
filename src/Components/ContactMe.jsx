@@ -66,10 +66,10 @@ const ContactMe = () => {
           GET IN TOUCH WITH US
         </p>
       </div>
-      <div className="flex">
-        <div className=" h-[70vh] flex-1 md:ml-20">
+      <div className="flex flex-wrap">
+        <div className=" flex flex-wrap md: h-[70vh] flex-1 ">
           <form ref={form} onSubmit={sendEmail}>
-            <div className="md:flex flex-row">
+            <div className="flex flex-wrap flex-row">
               <div className=" flex  flex-col ">
                 <label className="">First Name</label>
                 <input
@@ -94,7 +94,7 @@ const ContactMe = () => {
             <div className="flex flex-col">
               <label>Email</label>
               <input
-                className="border py-2 px-3 text-grey-darkest mt-4 rounded-lg md:h-[50px] w-[420px]"
+                className="border py-2 px-3 text-grey-darkest mt-4 rounded-lg md:h-[50px] w-[380px]"
                 type="text"
                 name="user_mail"
                 value={user_mail}
@@ -104,7 +104,7 @@ const ContactMe = () => {
             <div className="flex flex-col">
               <label>Phone Number</label>
               <input
-                className="border  py-2 px-3 text-grey-darkest mt-4 rounded-lg md:h-[50px] w-[420px]"
+                className="border  py-2 px-3 text-grey-darkest mt-4 rounded-lg md:h-[50px] w-[380px]"
                 type="tel"
                 name="user_phone"
                 value={user_phone}
@@ -114,7 +114,7 @@ const ContactMe = () => {
             <div className="flex flex-col">
               <label>Subject</label>
               <input
-                className="border  py-2 px-3 text-grey-darkest mt-4 rounded-lg md:h-[50px] w-[420px]"
+                className="border  py-2 px-3 text-grey-darkest mt-4 rounded-lg md:h-[50px] w-[380px]"
                 type="text"
                 name="subject"
                 value={subject}
@@ -124,7 +124,7 @@ const ContactMe = () => {
             <div className="flex flex-col">
               <label>Message</label>
               <textarea
-                className="border  py-2 px-3 text-grey-darkest mt-4 rounded-lg md:h-[150px] w-[420px]"
+                className="border  py-2 px-3 text-grey-darkest mt-4 rounded-lg md:h-[150px] w-[380px]"
                 type="text"
                 name="message"
                 id="message"
@@ -140,9 +140,10 @@ const ContactMe = () => {
             </button>
           </form>
         </div>
-        <div className=" md:text-2xl flex flex-1 fles-wrap flex-col">
+        <div className=" md:text-2xl flex flex-1 flex-wrap flex-col">
           <p>Are you interested traveling with us? We are here for you</p>
           <p className="md:text-3xl animate-pulse font-bold">Let's Talk</p>
+          <p className="font-bold">Call or WhattsApp +254 722177102</p>
           <img src={safaris20} />
         </div>
       </div>
@@ -154,10 +155,26 @@ const ContactMe = () => {
           <p>Email: chepkorircarren9@gmail.com</p>
 
           <p>Location:Nairobi,Kenya</p>
-        </div>
-        <div className=" ml-10 md:flex-1 flex flex-col leading-loose  ">
           <p>Working Hours-24hr Support</p>
           <p> Hotel Bookings</p>
+        </div>
+        <div className="flex-1 flex-col flex leading-loose">
+          <h2>Safari Tours</h2>
+          <p>Family safaris</p>
+          <p>Honeymoon safaris</p>
+          <p>Safari and Beach Holidays</p>
+          <p>Nairobi safaris</p>
+          <p>Short safaris</p>
+        </div>
+        <div className=" ml-10 md:flex-1 flex flex-col leading-loose  ">
+          <p>Our Services</p>
+          <a
+            href="https://www.facebook.com/Kipshariff/photos"
+            className=" hover:text-orange-500"
+          >
+            <p className=" hover:text-orange-500">Gallery</p>
+          </a>
+          <p>Home</p>
           <Link to="/About">
             <p>About Creatify</p>
           </Link>

@@ -49,7 +49,7 @@ const Slider = () => {
                 alt={title}
               ></img>
               <h2>{id}</h2>
-              <h3>{title}</h3>
+              <h2 className="font-bold">{title}</h2>
               <p>{Message}</p>
             </div>
             <button
