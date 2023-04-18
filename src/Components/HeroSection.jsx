@@ -12,11 +12,9 @@ import Slider from "./Slider";
 const HeroSection = () => {
   return (
     <>
-      <div className="h-[100vh] md:bg-[url('assets/safaris.jpg')] md:bg-cover bg-center flex flex-col">
+      <div className="h-[100vh] bg-[url('assets/safaris.jpg')] bg-cover bg-center flex flex-col">
         <div className="grid md:h-5/6 place-content-center">
-          <p className="md:text-center font-bold text-8xl outline-8">
-            LIVE YOUR
-          </p>
+          <p className="text-center font-bold text-8xl outline-8">LIVE YOUR</p>
           <p className="md:text-center text-orange-700 font-bold text-8xl">
             ADVENTURE
           </p>
@@ -39,21 +37,26 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="h-[80vh] ">
-        <p className="text-black text-5xl ml-20 text-bold animate-bounce  mt-10 hover:text-orange-500">
+        <p className="text-black text-2xl md:text-5xl md:ml-20 text-bold animate-bounce  mt-10 hover:text-orange-500">
           Explore beauty of your journey
         </p>
         {/* <AiOutlineArrowRight size="40px" color="orange"  /> */}
 
-        <div className="flex">
+        <div className="flex flex-wrap">
           <img
             className=" mt-10 ml-20 w-[550px] h-[400px] rounded-lg"
             src={Kip}
             alt={Kip}
           />
-          <div className="flex-1 p-2 flex">
-            <img className="h-[150px] w-[150px] rounded m-20" src={fireball} />
-            <div className="flex flex-col p-2">
-              <div className="flex ">
+          <div className="flex-1 p-2 flex flex-wrap">
+            <div className="flex-1">
+              <img
+                className="h-[150px] w-[150px] rounded m-20"
+                src={fireball}
+              />
+            </div>
+            <div className="flex flex-col p-2 flex-4">
+              <div className="flex">
                 <div className="flex-3  p-4">
                   <p className="ml-20   leading-loose text-3xl text-center font-bold ">
                     START YOUR NEW ADVENTURE
@@ -81,7 +84,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className="flex">
+      <div className="flex flex-wrap">
         <div className="flex-1 flex flex-col">
           <div className="items-center ml-20 ">
             <p className="font-bold text-4xl mt-0">WHAT ADVENTURERS </p>
@@ -120,10 +123,10 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="">
-        <div className="flex flex-col items-center bg-orange-100  h-[220px] w-[1600px] rounded-lg mt-20 ml-20">
+        <div className="flex flex-col items-center bg-orange-100  h-[220px] md:w-[1600px] rounded-lg mt-20 ml-20">
           <div className="">
             <h1 className="font-bold text-4xl leading-loose">
-              GET STARTED WITH KIP
+              GET STARTED WITH CREATIFY
             </h1>
             <p>
               Get in Touch and find super attractive price quotes
@@ -138,36 +141,37 @@ const HeroSection = () => {
           </Link>
         </div>
       </div>
-      <div className=" flex ">
-        <div className="ml-20 mt-10 flex-1 ">
-          <p>
-            My mission is to make everyone
-            <br /> able to feel the attachement <br />
-            back to nature by providing an <br />
-            unforgottable experience
+      <div className="flex flex-wrap">
+        <div className="flex-1 ml-20 mt-10  ">
+          <p className="max-w-[40%]">
+            My mission is to make everyone able to feel the attachement back to
+            nature by providing an unforgottable experience
           </p>
-          <p className="mt-5">
-            &copy; {new Date().getFullYear()} TRLVS .All rights reserved
+          <p className="mt-5 max-w-[40%]">
+            &copy; {new Date().getFullYear()} Creatify.All rights reserved
           </p>
         </div>
-        <div className="items-center mt-20 ml-3 text-2xl font-bold">
-          <p>Get In Touch With Me</p>
-        </div>
-        <div className=" flex flex-1 mt-20 space-x-6 cursor-pointer ">
-          <a href="tel:+254742295861">
-            <FaPhone color="#1771e6" size="50" />
-          </a>
-          <a href="https://wa.me/254742295861">
-            <FaWhatsapp color="green" size="50" />
-          </a>
+        <div className="flex-1 my-10">
+          <p className="items-center ml-3 text-2xl font-bold">
+            Get In Touch With Us
+          </p>
 
-          <a href="" className="href">
-            <FaTiktok size="50" />
-          </a>
+          <div className=" flex flex-1 mt-20 space-x-6 cursor-pointer ">
+            <a href="tel:+254742295861">
+              <FaPhone color="#1771e6" size="50" />
+            </a>
+            <a href="https://wa.me/254742295861">
+              <FaWhatsapp color="green" size="50" />
+            </a>
 
-          <a href="https://www.facebook.com/Kipshariff" className="href">
-            <FaFacebook color="#1771e6" size="50" />
-          </a>
+            <a href="" className="href">
+              <FaTiktok size="50" />
+            </a>
+
+            <a href="https://www.facebook.com/Kipshariff" className="href">
+              <FaFacebook color="#1771e6" size="50" />
+            </a>
+          </div>
         </div>
       </div>
     </>

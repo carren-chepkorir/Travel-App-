@@ -2,7 +2,7 @@ const Data1 = [
   {
     id: 1,
     image:
-      "https://z-p3-scontent-mba1-1.xx.fbcdn.net/v/t1.6435-9/139611386_3974096652647871_2509093287444516970_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=oWKnFD9KjB8AX_jdDBM&_nc_ht=z-p3-scontent-mba1-1.xx&oh=00_AfDz9HJqC1jbOrzQJOxqyCtfSXJYHpXSHNxZB7OUqjB2uA&oe=64158778",
+      "https://wwhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5hzVsybdOOK5ZJTGM1qyJfpigw0tbddOhpw&usqp=CAUw.especiallyafrica.com/wp-content/uploads/2014/09/cheetah_safari_jeep.jpgttps://www.google.com/imgres?imgurl=https%3A%2F%2Frealmafricasafaris.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fkenya-Safari.jpg&tbnid=RHzp2w5ifh_c2M&vet=12ahUKEwjoyf7iorD-AhUericCHUA6DT4QMygNegUIARD_AQ..i&imgrefurl=https%3A%2F%2Frealmafricasafaris.com%2Fkenya-family-safari-11-days-10-nights%2F&docid=fk6Ekv4Vflh7kM&w=1064&h=600&q=safari%20photos&ved=2ahUKEwjoyf7iorD-AhUericCHUA6DT4QMygNegUIARD_AQhttps://z-p3-scontent-mba1-1.xx.fbcdn.net/v/t1.6435-9/139611386_3974096652647871_2509093287444516970_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=oWKnFD9KjB8AX_jdDBM&_nc_ht=z-p3-scontent-mba1-1.xx&oh=00_AfDz9HJqC1jbOrzQJOxqyCtfSXJYHpXSHNxZB7OUqjB2uA&oe=64158778",
     title: "Maasai Mara ",
     Message:
       "Reservation process was top ,fast response from Nicholas, clear advice and appointments for meeting with our guide and payment perfect",

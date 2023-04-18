@@ -13,24 +13,26 @@ import { Link } from "react-router-dom";
 const MyServices = () => {
   return (
     <div className="h-[100vh]">
-      <div className="h-[20vh] md:bg-cover md:bg-[url('assets/safaris30.jpg')] grid place-content-center ">
+      <div className="h-[20vh] bg-cover bg-[url('assets/safaris30.jpg')] grid place-content-center ">
         <div className=" flex flex-row">
           <Link to="/">
             <h2 className="text-2xl">Home</h2>
           </Link>
           <FiChevronRight size={40} />
-          <p className="font-bold text-4xl text-orange-600 animate-pulse">
+          <p className="md: text-orange-600 animate-pulse font-bold text-4xl">
             OUR SERVICES
           </p>
         </div>
       </div>
-      <div className="flex container m-auto flex-row">
-        <div className="flex-1 flex-col">
-          <div className="flex flex-row mt-10">
-            <img className="max-h-[25vh]" src={service1} />
-            <div className="flex-col flex">
-              <h1 className="ml-10 font-bold text-2xl">SIGHT-SEEING TOURS</h1>
-              <p className="ml-10">
+      <div className="p-5 md:flex container m-auto flex-row flex-wrap">
+        <div className="flex-1 flex-col md:flex-wrap">
+          <div className="md:flex flex-row mt-10 ">
+            <img className=" md:max-h-[25vh]" src={service1} />
+            <div className="flex-col flex md: flex-wrap">
+              <h1 className="  md:ml-10 font-bold text-2xl">
+                SIGHT-SEEING TOURS
+              </h1>
+              <p className="md:ml-10">
                 Sight-Seeing Tours From wildlife safaris and dining in Bush with
                 the lions in Masai Mara, golfing in the Aberdares, Cultural
                 adventure in maasai Land Loita Hills, white water rafting in
@@ -39,12 +41,12 @@ const MyServices = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-row mt-10">
-            <img className="max-h-[25vh]" src={service10} />
+          <div className=" md:flex flex-row  mt-10">
+            <img className="md:max-h-[25vh]" src={service10} />
             <div>
-              <h1 className="ml-10 font-bold text-2xl ">BIRD WATCHING</h1>
+              <h1 className="md:ml-10 font-bold text-2xl ">BIRD WATCHING</h1>
 
-              <p className="ml-10">
+              <p className="md:ml-10">
                 East Africa is one of the top birding destinations in the world.
                 Its rich incredible variety is the dream of every birding
                 enthusiast. Kenya has over 1000 recorded species of birds and it
@@ -57,11 +59,11 @@ const MyServices = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-row mt-10">
+          <div className="md:flex flex-row mt-10">
             <img className="max-h-[25vh]" src={service2} />
             <div>
-              <h1 className="ml-10 font-bold text-2xl ">BEACH HOLIDAYS</h1>
-              <p className="ml-10">
+              <h1 className="md:ml-10 font-bold text-2xl ">BEACH HOLIDAYS</h1>
+              <p className="md:ml-10">
                 Beach Holidays at Diani Beach & Zanzibar Island are major beach
                 resorts on the Indian Ocean coast of East Africa. They harbour
                 world class hotels, lain along their white sandy beaches. They
@@ -70,11 +72,13 @@ const MyServices = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-row mt-10">
-            <img className="max-h-[25vh]" src={service3} />
+          <div className="md:flex flex-row mt-10">
+            <img className="md:max-h-[25vh]" src={service3} />
             <div>
-              <h1 className="ml-10 font-bold text-2xl ">MOUNTAIN CLIMBING</h1>
-              <p className="ml-10">
+              <h1 className="md:ml-10 font-bold text-2xl ">
+                MOUNTAIN CLIMBING
+              </h1>
+              <p className="md:ml-10">
                 Mountain Climbing East Africa mountain climbing adventures is
                 among the many things we can arrange for you.We have Mount
                 Kenya, We are brave and accomplished in mountain climbing
@@ -83,12 +87,12 @@ const MyServices = () => {
             </div>
           </div>
         </div>
-        <div className="flex-1 flex-col">
-          <div className="flex flex-row mt-10">
-            <img className="max-h-[25vh]" src={service4} />
+        <div className="md:flex-1 flex-col">
+          <div className="md:flex flex-row mt-10">
+            <img className="md:max-h-[25vh]" src={service4} />
             <div>
-              <h1 className="ml-10 font-bold text-2xl ">HOTEL BOOKING</h1>
-              <p className="ml-10">
+              <h1 className="md:ml-10 font-bold text-2xl ">HOTEL BOOKING</h1>
+              <p className="md:ml-10">
                 Wilderness lodges, Business hotels – you name it, we’ll get you
                 the best bargain.I’ve mastered the fine art of finding the
                 perfect hotel. So if you need a little expert help finding a
@@ -96,12 +100,12 @@ const MyServices = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-row mt-10">
-            <img className="max-h-[25vh]" src={service1} />
+          <div className="md:flex flex-row mt-10">
+            <img className="md:max-h-[25vh]" src={service1} />
             <div>
               {" "}
-              <h1 className="ml-10 font-bold text-2xl ">FAMILY SAFARIS</h1>
-              <p className="ml-10">
+              <h1 className="md:ml-10 font-bold text-2xl ">FAMILY SAFARIS</h1>
+              <p className="md:ml-10">
                 Our family safaris are tailored to provide a safe and wholesome
                 fun for the whole family. In addition children get an
                 opportunity to learn about other cultures, and nature and give
@@ -113,11 +117,14 @@ const MyServices = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-row mt-10">
-            <img className="max-h-[25vh]" src={service5} />
+          <div className="md:flex flex-row mt-10">
+            <img className="md:max-h-[25vh]" src={service5} />
             <div>
-              <h1 className="ml-10 font-bold text-2xl "> AIRPORT TRANSFERS</h1>
-              <p className="ml-10">
+              <h1 className="md:ml-10 font-bold text-2xl ">
+                {" "}
+                AIRPORT TRANSFERS
+              </h1>
+              <p className="md:ml-10">
                 I do transportation to and from Airport. Nail down your flights,
                 book the perfect place to stay and craft an itinerary of
                 dreams.Don’t wait until you stagger off the plane to wonder,
@@ -126,13 +133,13 @@ const MyServices = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-row mt-10">
+          <div className="md:flex flex-row mt-10">
             <img className="max-h-[25vh]" src={service7} />
-            <div className="flex flex-col">
-              <h1 className="ml-10 font-bold text-2xl ">
+            <div className="md:flex flex-col">
+              <h1 className="md:ml-10 font-bold text-2xl ">
                 HOT AIR BALLOON SAFARIS
               </h1>
-              <p className="ml-10">
+              <p className="md:ml-10">
                 A panoramic view of the scenic Mara teeming with wildlife far
                 into the crimson horizon is truly inspiring. As the balloon
                 gently soars above the tree tops you will have a chance to
@@ -144,6 +151,32 @@ const MyServices = () => {
               </p>
             </div>
           </div>
+        </div>
+      </div>
+      <div className=" bg-[#145365] h-[20vh] text-white flex flex-wrap p-5">
+        <div className="md:flex flex-col flex-1 ">
+          <h1 className=" hover:text-orange-500">CONTACT US</h1>
+          <p className=" hover:text-orange-500">+254 722177102</p>
+          <p className=" hover:text-orange-500">nicholaskipngetich@gmail.com</p>
+        </div>
+        <div className="flex flex-col flex-1 ml-4 ">
+          <h1 className=" hover:text-orange-500">SUPPORT</h1>
+          <p className=" hover:text-orange-500">Get 24hr Support </p>
+          <a
+            href="https://www.facebook.com/Kipshariff/photos"
+            className=" hover:text-orange-500"
+          >
+            <p className=" hover:text-orange-500">Gallery</p>
+          </a>
+        </div>
+        <div className="flex flex-col flex-1 ">
+          <Link to="/About">
+            <h1 className=" hover:text-orange-500">ABOUT US</h1>
+          </Link>
+          <p className=" hover:text-orange-500">
+            Discovery offers adventure safaris and travel consultancy services
+            about the magnificent East Africa.
+          </p>
         </div>
       </div>
     </div>
