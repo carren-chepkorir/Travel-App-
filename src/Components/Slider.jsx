@@ -37,14 +37,14 @@ const Slider = () => {
             }
           >
             <button
-              className="text-4xl border-1 border-black ml-20 "
+              className="text-4xl border-1 border-black md:ml-20 "
               onClick={() => prevSliderHandler(id)}
             >
               <FiChevronLeft />
             </button>
-            <div className="flex flex-col items-center">
+            <div className="md:flex flex-col justify-center items-center mt-6">
               <img
-                className="w-[700px] h-[400px] rounded-lg"
+                className="md:h-[300px] md:max-w-[600px] rounded-lg"
                 src={image}
                 alt={title}
               ></img>

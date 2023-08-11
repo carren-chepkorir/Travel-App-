@@ -14,33 +14,44 @@ const Explore = () => {
     <>
       <div className="h-[150vh] scroll-smooth md:bg-[url('https://images.unsplash.com/photo-1589820066313-dbb65fcf5a1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80')] md:bg-cover md:bg-center">
         <div className="flex flex-wrap">
-          <div className="flex  flex-1 flex-col ml-20 leading-loose font-bold">
-            <h1 className=" md:text-4xl 5s steps(30, end), blink .75s step-end infinite ">
-              FIND POPULAR
-            </h1>
-            <h1 className="md:text-4xl text-orange-600 animate-pulse">
-              DESTINATIONS
-            </h1>
-          </div>
-          <div className="flex flex-wrap">
-            <div className="  md:ml-[400px] flex  flex-1 flex-row m-2 ">
-              <div className="  md:text-2xl items-center ">
-                <img className="animate-pulse" src={rate} />
-              </div>
-              <div className="flex flex-col md:text-2xl ">
-                <p>
-                  Plan your best trip ever with Creatify Safaris <br />
-                  We’ve got everything you need to go big in{" "}
-                  {new Date().getFullYear()}
-                </p>
-                <p>Find your best destinstions and Travel with Us</p>
+          <div className="flex  flex-1 flex-col leading-loose  md:ml-20">
+            <div className="md:flex flex-wrap font-bold flex-col">
+              <h1 className=" md:text-4xl 5s steps(30, end), blink .75s step-end infinite ">
+                FIND POPULAR
+              </h1>
+              <h1 className="md:text-4xl text-orange-600 animate-pulse">
+                DESTINATIONS
+              </h1>
+            </div>
+
+            <div className="flex flex-wrap">
+              <div className="  md:flex  flex-1 flex-row ">
+                <div className="md:text-2xl text-black justify-center items-center flex flex-col ">
+                  <p>
+                    Plan your best trip ever with Creatify Safaris <br />
+                    We’ve got everything you need to go big in{" "}
+                    {new Date().getFullYear()}
+                    ,Find your best destinstions and Travel with Us
+                  </p>
+                  <div>
+                    {" "}
+                    <Link to="/Contact">
+                      <button className="bg-orange-600 text-white mt-4 py-3 px-6 text-center rounded-lg ">
+                        Book Now
+                      </button>
+                    </Link>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div className="md:grid  grid-cols-5 gap-5 m-5 mt-10 mb-0">
           <div>
-            <img className="h-[30vh] rounded-lg " src={safaris2} />
+            <img
+              className="h-[30vh] rounded-lg md:transform  bg-white transition duration-500 hover:scale-125 "
+              src={safaris2}
+            />
             <p>Maasai Mara National Reserve</p>
             <div className="flex flex-row animate-pulse  ">
               <img src={rate} />
@@ -52,7 +63,10 @@ const Explore = () => {
           </div>
 
           <div>
-            <img className="h-[30vh] rounded-lg" src={safaris3} />
+            <img
+              className="md:h-[30vh] rounded-lg transform  bg-white transition duration-500 hover:scale-125"
+              src={safaris3}
+            />
             <p>Amboseli National Park</p>
             <div className="flex flex-row animate-pulse hover:">
               <img src={rate} />
@@ -63,7 +77,10 @@ const Explore = () => {
           </div>
 
           <div>
-            <img className="h-[30vh] rounded-lg" src={safaris5} />
+            <img
+              className="h-[30vh] rounded-lg transform  bg-white transition duration-500 hover:scale-125"
+              src={safaris5}
+            />
             <p>Mount Kenya National Park</p>
             <div className="flex flex-row animate-pulse hover:">
               <img src={rate} />
@@ -72,17 +89,20 @@ const Explore = () => {
               <img src={rate} />
             </div>
           </div>
-          <div className="md:ml-20">
+          {/* <div className="md:justify-center items-center">
             <Link to="/Contact">
               <button className="bg-orange-600 py-5 px-6 text-center rounded-lg animate-bounce">
                 Book Now
               </button>
             </Link>
-          </div>
+          </div> */}
         </div>
         <div className="md:grid grid-cols-5 gap-5 m-5 mt-10">
           <div>
-            <img className="h-[30vh] rounded-lg" src={safaris8} />
+            <img
+              className="h-[30vh] rounded-lg transform  bg-white transition duration-500 hover:scale-125"
+              src={safaris8}
+            />
             <p>Nairobi National Park</p>
             <div className="flex flex-row animate-pulse hover:">
               <img src={rate} />
@@ -92,7 +112,10 @@ const Explore = () => {
             </div>
           </div>
           <div>
-            <img className="h-[30vh] rounded-lg" src={safaris4} />
+            <img
+              className="h-[30vh] rounded-lg transform  bg-white transition duration-500 hover:scale-125"
+              src={safaris4}
+            />
             <p>Tsavo National Park</p>
             <div className="flex flex-row animate-pulse hover:">
               <img src={rate} />
@@ -102,7 +125,10 @@ const Explore = () => {
             </div>
           </div>
           <div>
-            <img className="h-[30vh] rounded-lg" src={safaris7} />
+            <img
+              className="h-[30vh] rounded-lg transform  bg-white transition duration-500 hover:scale-125"
+              src={safaris7}
+            />
             <p>Nakuru National Park</p>
             <div className="flex flex-row animate-pulse hover:">
               <img src={rate} />
@@ -114,7 +140,10 @@ const Explore = () => {
         </div>
         <div className="md:grid grid-cols-5 gap-5 m-5 mt-10">
           <div>
-            <img className="h-[30vh] rounded-lg" src={safaris10} />
+            <img
+              className="h-[30vh] rounded-lg transform  bg-white transition duration-500 hover:scale-125"
+              src={safaris10}
+            />
             <p>Tsavo West National Park</p>
             <div className="flex f} lex-row animate-pulse hover:">
               <img src={rate} />
@@ -124,7 +153,10 @@ const Explore = () => {
             </div>
           </div>
           <div>
-            <img className="h-[30vh] rounded-lg" src={safaris10} />
+            <img
+              className="h-[30vh] rounded-lg transform  bg-white transition duration-500 hover:scale-125"
+              src={safaris10}
+            />
             <p>Aberdare National Park</p>
             <div className="flex flex-row animate-pulse hover:">
               <img src={rate} />
@@ -135,7 +167,10 @@ const Explore = () => {
           </div>
 
           <div>
-            <img className="h-[30vh] w-[400px] rounded-lg" src={safaris12} />
+            <img
+              className="h-[30vh] w-[400px] rounded-lg transform  bg-white transition duration-500 hover:scale-125"
+              src={safaris12}
+            />
             <p>Samburu National Park</p>
             <div className="flex flex-row animate-pulse hover:">
               <img src={rate} />
@@ -145,7 +180,7 @@ const Explore = () => {
             </div>
           </div>
         </div>
-        <div className=" md:flex flex-wrap flex-row container mr-[500px] bg-orange-100">
+        <div className=" md:flex flex-wrap flex-row justify-center items-center md:mt-[95px] bg-[#f1f5f9] md:p-20">
           <div className="flex flex-wrap">
             <h1 className="font-bold">ENJOY THE EXCLUSIVE EXPERIENCE</h1>
 
