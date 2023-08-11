@@ -147,8 +147,8 @@ const ContactMe = () => {
           <img src={safaris20} />
         </div>
       </div>
-      <div className="bg-[#145365] mb-0 flex h-[30vh] text-white">
-        <div className="flex-1 flex-col leading-loose md:ml-20">
+      <div className="bg-[#145365] mb-0 flex h-[40vh] text-white">
+        <div className="flex-1 flex-wrap flex-col leading-loose md:ml-20">
           <p className="text-2px font-bold">CONTACT US</p>
           <p> Tel:+254 742295861</p>
 
@@ -158,7 +158,7 @@ const ContactMe = () => {
           <p>Working Hours-24hr Support</p>
           <p> Hotel Bookings</p>
         </div>
-        <div className="flex-1 flex-col flex leading-loose">
+        <div className="md:flex-1 flex-wrap  flex-col flex leading-loose">
           <h2>Safari Tours</h2>
           <p>Family safaris</p>
           <p>Honeymoon safaris</p>
@@ -166,7 +166,7 @@ const ContactMe = () => {
           <p>Nairobi safaris</p>
           <p>Short safaris</p>
         </div>
-        <div className=" ml-10 md:flex-1 flex flex-col leading-loose  ">
+        <div className="md:flex-1 flex-wrap flex flex-col leading-loose lg:ml-10 ">
           <p>Our Services</p>
           <a
             href="https://www.facebook.com/Kipshariff/photos"
@@ -174,7 +174,7 @@ const ContactMe = () => {
           >
             <p className=" hover:text-orange-500">Gallery</p>
           </a>
-          <p>Home</p>
+          <p className="">Home</p>
           <Link to="/About">
             <p>About Creatify</p>
           </Link>
