@@ -93,7 +93,7 @@ const AboutMe = () => {
             needs and provide a tailor-made solutionswhilst allowing room for
             future growth and expansion.
           </p>
-          <h1 className="md:font-bold m-5 text-2xl">OUR EXPERIRNCE</h1>
+          <h1 className="md:font-bold m-5 text-2xl">OUR EXPERIENCE</h1>
           <p className="md:leading-loose">
             We have a long term experience in working with a wide vrange of
             clients.This has given us a unique balance of skills in knowing
