@@ -157,7 +157,7 @@ const MyServices = () => {
         <div className="md:flex flex-col flex-1 ">
           <h1 className=" hover:text-orange-500">CONTACT US</h1>
           <p className=" hover:text-orange-500">+254 722177102</p>
-          <p className=" hover:text-orange-500">nicholaskipngetich@gmail.com</p>
+          <p className=" hover:text-orange-500">chepkorircarren9@gmail.com</p>
         </div>
         <div className="flex flex-col flex-1 ml-4 ">
           <h1 className=" hover:text-orange-500">SUPPORT</h1>

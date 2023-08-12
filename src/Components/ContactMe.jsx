@@ -67,7 +67,7 @@ const ContactMe = () => {
         </p>
       </div>
       <div className="flex flex-wrap">
-        <div className=" flex flex-wrap md: h-[70vh] flex-1 ">
+        <div className=" flex flex-wrap md: h-[70vh] flex-1 md:ml-20">
           <form ref={form} onSubmit={sendEmail}>
             <div className="flex flex-wrap flex-row">
               <div className=" flex  flex-col ">
